@@ -44,3 +44,22 @@ $line-height-base: 1.7;
     overflow: hidden;
     z-index: 1000000;
 }
+
+.container,
+.container-fluid {
+    max-width: 1170px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+// Design the header
+#twp-header {
+    text-align: center;
+    padding: 25px 0;
+
+    .twp-logo {
+        width: auto;
+        height: 100px;
+    }
+
+}

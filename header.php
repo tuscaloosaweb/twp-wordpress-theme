@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+
+// Set the theme directory
+$theme_dir = get_stylesheet_directory_uri();
+
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -19,3 +24,15 @@
 </head>
 <body <?php body_class(); ?>>
     <a href="#" id="skip-to-content">Skip to Content</a>
+
+    <div id="twp-wrapper">
+
+        <div id="twp-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="<?php echo get_bloginfo( 'url' ); ?>"><img class="twp-logo" src="<?php echo "{$theme_dir}/images/twp-logo.svg"; ?>" /></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- #twp-header -->
