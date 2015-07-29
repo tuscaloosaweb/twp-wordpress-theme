@@ -53,10 +53,41 @@ $line-height-base: 1.7;
     padding-right: 30px;
 }
 
+p {
+    margin: 0 0 17px 0;
+}
+
+// Work on any buttons
+.btn {
+
+    &.btn-github {
+
+        & > span {
+            background: url('../images/icons/github-white.svg') left center no-repeat;
+            background-size: auto 96%;
+            padding-left: 32px;
+        }
+
+    }
+
+    &.btn-twitter {
+
+        & > span {
+            background: url('../images/icons/twitter-white.svg') left center no-repeat;
+            background-size: auto 90%;
+            padding-left: 33px;
+        }
+
+    }
+
+}
+
 // Design the header
 #twp-header {
+    background: url( '../images/twp-header-bg.jpg' ) center bottom repeat-x;
+    height: 180px;
     text-align: center;
-    padding: 25px 0;
+    padding: 45px 0 0 0;
     border-bottom: 1px solid #ddd;
 
     .twp-logo {
@@ -69,5 +100,16 @@ $line-height-base: 1.7;
 // Design the main area
 #twp-main {
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0 20px 0;
+
+    p {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .twp-social-media-buttons {
+        margin: 25px 0 0 0;
+    }
+
 }

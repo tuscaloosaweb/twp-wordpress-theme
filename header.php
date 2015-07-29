@@ -31,7 +31,7 @@ $theme_dir = get_stylesheet_directory_uri();
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="<?php echo get_bloginfo( 'url' ); ?>"><img class="twp-logo" src="<?php echo "{$theme_dir}/images/twp-logo.svg"; ?>" /></a>
+                        <a href="<?php echo get_bloginfo( 'url' ); ?>"><img class="twp-logo" src="<?php echo "{$theme_dir}/images/logos/twp-logo.svg"; ?>" /></a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,13 @@ $theme_dir = get_stylesheet_directory_uri();
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>For more information about Tuscaloosa Web Professionals, <a href="http://www.meetup.com/Tuscaloosa-Web-Professionals/">visit our meetup.com account.</p>
+                        <p>Tuscaloosa Web Professionals is a community and meetup group for anyone in the Tuscaloosa (and surrounding) area who makes a living building the world wide web. Whether you're a designer, coder, writer, sysadmin, or other web-related specialist, we invite you to join us to network, collaborate, learn, and share your expertise.</p>
+                        <p><strong>For more information, <a href="http://www.meetup.com/Tuscaloosa-Web-Professionals/">visit Tuscaloosa Web Professionals on meetup.com</a>.</strong></p>
+                        <div class="twp-social-media-buttons">
+                            <a href="https://twitter.com/tuscaloosaweb" class="btn btn-primary btn-twitter" title="Follow Tuscaloosa Web Professionals on Twitter"><span>Twitter</span></a>
+                            <a href="https://github.com/tuscaloosaweb" class="btn btn-primary btn-github" title="Follow Tuscaloosa Web Professionals on GitHub"><span>GitHub</span></a>
+                            <a href="http://www.meetup.com/Tuscaloosa-Web-Professionals/" class="btn btn-primary btn-meetup" title="Join Tuscaloosa Web Professionals on meetup.com"><span>Join us on meetup.com</span></a>
+                        </div>
                     </div>
                 </div>
             </div>
