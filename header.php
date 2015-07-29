@@ -32,6 +32,7 @@ $theme_dir = get_stylesheet_directory_uri();
                 <div class="row">
                     <div class="col-md-12">
                         <a href="<?php echo get_bloginfo( 'url' ); ?>"><img class="twp-logo" src="<?php echo "{$theme_dir}/images/twp-logo.svg"; ?>" /></a>
+                        <br /><br />DEPLOY ALL THE THINGS!
                     </div>
                 </div>
             </div>
