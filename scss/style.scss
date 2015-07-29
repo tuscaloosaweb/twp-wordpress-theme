@@ -1,0 +1,46 @@
+//
+// These are the base styles for TWP.
+//
+// This site is built on top of the
+// Bootstrap framework so this
+// SASS stylesheet pulls variables
+// from that framework.
+//
+
+// Define our colors
+$black: #000;
+$white: #fff;
+
+// Change primary color
+//$brand-primary: $heweb-red;
+
+// Links
+//$link-color: $heweb-red;
+//$link-hover-color: darken( $link-color, 15% );
+
+// Define our fonts
+
+// Change Bootstrap font
+$open-sans: 'Open Sans', sans-serif;
+$font-family-sans-serif: $open-sans;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 17px;
+$line-height-base: 1.7;
+
+// Import our "overwrite Bootstrap" variables
+@import "bootstrap/_variables";
+
+// Import Bootstrap
+@import "_bootstrap";
+
+#skip-to-content {
+    display: block;
+    position: fixed;
+    left: -1000px;
+    top: -1000px;
+    width: 0;
+    height: 0;
+    text-align: left;
+    overflow: hidden;
+    z-index: 1000000;
+}
