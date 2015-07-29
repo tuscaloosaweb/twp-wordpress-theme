@@ -34,16 +34,6 @@ $line-height-base: 1.7;
 // Import Bootstrap
 @import "_bootstrap";
 
-// Hide these elements visibly, but make sure they're still viewable by screen readers
-.screen-reader-text {
-    display: block;
-    width: 0;
-    height: 0;
-    margin: 0;
-    overflow: hidden;
-    text-indent: -9999px;
-}
-
 #skip-to-content {
     display: block;
     position: fixed;
