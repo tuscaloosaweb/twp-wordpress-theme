@@ -17,6 +17,11 @@ add_action( 'wp_enqueue_scripts', function() {
 
 });
 
+//! Hide Query Monitor stats if admin bar isn't showing
+add_filter( 'qm/process', function( $show_qm, $is_admin_bar_showing ) {
+    return $is_admin_bar_showing;
+});
+
 //! Filter login logo URL
 add_filter( 'login_headerurl', function( $login_header_url ) {
     return get_bloginfo( 'url' );
