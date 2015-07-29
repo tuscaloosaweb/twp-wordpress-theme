@@ -17,6 +17,11 @@ add_action( 'wp_enqueue_scripts', function() {
 
 });
 
+//! Filter login logo URL
+add_filter( 'login_headerurl', function( $login_header_url ) {
+    return get_bloginfo( 'url' );
+});
+
 //! Setup login styles
 add_action( 'login_head', function() {
 
