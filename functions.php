@@ -30,7 +30,7 @@ add_action( 'login_head', function() {
     #login h1 a {
         display: block;
         background: url( "<?php echo get_stylesheet_directory_uri(); ?>/images/twp-logo.svg" ) center bottom no-repeat;
-        background-size: 100% auto;
+        background-size: 95% auto;
         width: 100%;
         height: 115px;
     }
