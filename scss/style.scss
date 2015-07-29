@@ -8,15 +8,16 @@
 //
 
 // Define our colors
+$twp-red: #990000;
 $black: #000;
 $white: #fff;
 
 // Change primary color
-//$brand-primary: $heweb-red;
+$brand-primary: $twp-red;
 
 // Links
-//$link-color: $heweb-red;
-//$link-hover-color: darken( $link-color, 15% );
+$link-color: $twp-red;
+$link-hover-color: darken( $link-color, 15% );
 
 // Define our fonts
 
@@ -56,10 +57,17 @@ $line-height-base: 1.7;
 #twp-header {
     text-align: center;
     padding: 25px 0;
+    border-bottom: 1px solid #ddd;
 
     .twp-logo {
         width: auto;
         height: 100px;
     }
 
+}
+
+// Design the main area
+#twp-main {
+    text-align: center;
+    padding: 20px 0;
 }

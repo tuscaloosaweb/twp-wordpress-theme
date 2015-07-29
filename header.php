@@ -36,3 +36,13 @@ $theme_dir = get_stylesheet_directory_uri();
                 </div>
             </div>
         </div> <!-- #twp-header -->
+
+        <div id="twp-main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>For more information about Tuscaloosa Web Professionals, <a href="http://www.meetup.com/Tuscaloosa-Web-Professionals/">visit our meetup.com account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
