@@ -16,3 +16,24 @@ add_action( 'wp_enqueue_scripts', function() {
     wp_enqueue_script( 'modernizr', 'https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js' );
 
 });
+
+//! Setup login styles
+add_action( 'login_head', function() {
+
+    ?><style type="text/css">
+    body {
+        background: #fff;
+    }
+    #login {
+        padding-top: 5%;
+    }
+    #login h1 a {
+        display: block;
+        background: url( "<?php echo get_stylesheet_directory_uri(); ?>/images/twp-logo.svg" ) center bottom no-repeat;
+        background-size: 100% auto;
+        width: 100%;
+        height: 115px;
+    }
+    </style><?php
+
+});
